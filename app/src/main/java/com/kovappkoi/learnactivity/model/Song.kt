@@ -1,5 +1,5 @@
 package com.kovappkoi.learnactivity.model
 
-class Song {
-
+class Song(val id: String, val title: String, val sub: String, val url: String, val avt: String) {
+    constructor() : this("", "", "", "", "")
 }
