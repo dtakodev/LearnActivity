@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
+
     <data>
+
         <variable
             name="song"
             type="com.kovappkoi.learnactivity.model.Song" />
     </data>
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/background_song_item"
         android:orientation="vertical">
 
         <LinearLayout
@@ -15,15 +21,20 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+            <ImageView
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_as1"
+                android:contentDescription="@string/app_name" />
 
             <ImageView
-                android:contentDescription="@string/app_name"
                 android:id="@+id/img_song"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                src="@{song.avt}"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
                 android:layout_marginTop="8dp"
-                android:scaleType="centerCrop"
-                src="@{song.avt}" />
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -34,6 +45,9 @@
                     android:id="@+id/namesong"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_16ssp"
+                    android:textColor="@android:color/black"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="8dp"
                     android:text="@{song.title, default= ConDuongMua}">
@@ -44,9 +58,12 @@
                     android:id="@+id/infosong"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:alpha="0.75"
+                    android:textSize="@dimen/_14ssp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="8dp"
-                    android:text="@{song.autho}">
+                    android:text="@{song.autho, default = CaoThaiSon}">
 
                 </TextView>
             </LinearLayout>
