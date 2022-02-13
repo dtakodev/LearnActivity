@@ -5,15 +5,19 @@
       <map>
         <entry key="..\:/LearnActivity/app/src/main/res/drawable/background_song_item.xml" value="0.213" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/LearnActivity/app/src/main/res/layout/album_fragment.xml" value="0.25" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/album_item.xml" value="0.25" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/appbar_layout.xml" value="0.25" />
-        <entry key="..\:/LearnActivity/app/src/main/res/layout/flapments_song.xml" value="0.25" />
-        <entry key="..\:/LearnActivity/app/src/main/res/layout/home_fragment.xml" value="0.25" />
+        <entry key="..\:/LearnActivity/app/src/main/res/layout/flapments_song.xml" value="0.24074074074074073" />
+        <entry key="..\:/LearnActivity/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
+        <entry key="..\:/LearnActivity/app/src/main/res/layout/home_fragment.xml" value="0.1" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/item_song.xml" value="0.25" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/layout_cast_crew_item.xml" value="0.25" />
+        <entry key="..\:/LearnActivity/app/src/main/res/layout/song_fragment.xml" value="0.25" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/toolbar_home.xml" value="0.25" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/toolbar_song.xml" value="0.25" />
         <entry key="..\:/LearnActivity/app/src/main/res/menu/my_navigation_items.xml" value="0.25" />
+        <entry key="..\:/LearnActivity/app/src/main/res/menu/navigation_items.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
@@ -23,5 +27,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

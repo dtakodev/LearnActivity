@@ -2,7 +2,6 @@
 <layout>
 
     <data>
-
         <variable
             name="song"
             type="com.kovappkoi.learnactivity.model.Song" />
@@ -28,7 +27,6 @@
                 android:contentDescription="@string/app_name" />
 
             <ImageView
-                android:id="@+id/img_song"
                 src="@{song.avt}"
                 android:layout_width="@dimen/_50sdp"
                 android:layout_height="@dimen/_50sdp"
@@ -42,7 +40,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/namesong"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
@@ -55,7 +52,6 @@
                 </TextView>
 
                 <TextView
-                    android:id="@+id/infosong"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@android:color/black"
@@ -63,7 +59,7 @@
                     android:textSize="@dimen/_14ssp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="8dp"
-                    android:text="@{song.autho, default = CaoThaiSon}">
+                    android:text="@{song.author, default = CaoThaiSon}">
 
                 </TextView>
             </LinearLayout>
