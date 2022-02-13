@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "56770811168",
+    "project_id": "zingmp3-74521",
+    "storage_bucket": "zingmp3-74521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56770811168:android:7f1a002db476d65d60b345",
+        "android_client_info": {
+          "package_name": "com.kovappkoi.learnactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56770811168-grb8oe33cq0e9adao6gh7hb193t1qeko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1K-Ec67l608OliNvyTThN8E_aQmh-BJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56770811168-grb8oe33cq0e9adao6gh7hb193t1qeko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
