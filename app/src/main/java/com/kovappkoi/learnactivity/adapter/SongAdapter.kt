@@ -12,12 +12,9 @@ import com.kovappkoi.learnactivity.utils.Constants
 
 class SongAdapter(
     private val listSong: ArrayList<Song>, private val activity: Activity
+
 ) :
     RecyclerView.Adapter<SongAdapter.SongViewHolder>() {
-
-//    companion object {
-//        lateinit var callback: Callback
-//    }
 
     class SongViewHolder(val binding: ItemSongBinding) : RecyclerView.ViewHolder(binding.root)
 
@@ -27,17 +24,14 @@ class SongAdapter(
 
     override fun onBindViewHolder(holder: SongViewHolder, position: Int) {
         holder.binding.song = listSong[position]
-        holder.binding.songContainer.setOnClickListener {
-
+        holder.binding.lvSong.setOnClickListener {
             val intent = Intent(activity, PlayActivity::class.java)
             intent.putExtra(Constants.TITLE, listSong[position].title)
+            intent.putExtra(Constants.AVT, listSong[position].avt)
+            intent.putExtra(Constants.AUTHOR, listSong[position].author)
             intent.putExtra(Constants.SUB, listSong[position].sub)
             intent.putExtra(Constants.URL, listSong[position].url)
-            intent.putExtra(Constants.AUTHOR, listSong[position].author)
-            intent.putExtra(Constants.AVT, listSong[position].avt)
             activity.startActivity(intent)
-//            Toast.makeText(activity, "Đã click item số $position", Toast.LENGTH_SHORT).show()
-//            callback.onClickItem(listSong[position])
         }
         holder.binding.executePendingBindings()
     }
@@ -45,8 +39,4 @@ class SongAdapter(
     override fun getItemCount(): Int {
         return listSong.size
     }
-}
-
-interface Callback {
-    fun onClickItem(song: Song)
 }

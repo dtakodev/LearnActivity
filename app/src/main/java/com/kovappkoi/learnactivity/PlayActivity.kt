@@ -3,10 +3,16 @@ package com.kovappkoi.learnactivity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.kovappkoi.learnactivity.databinding.ActivityPlaymusicBinding
+import com.kovappkoi.learnactivity.model.Song
 import com.kovappkoi.learnactivity.utils.Constants
 
 class PlayActivity : AppCompatActivity() {
     private lateinit var title: String
+    private lateinit var sub: String
+    private lateinit var avt: String
+    private lateinit var url: String
+    private lateinit var author: String
+
 
     private lateinit var binding: ActivityPlaymusicBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,5 +21,16 @@ class PlayActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         title = intent.getStringExtra(Constants.TITLE)!!
+        sub = intent.getStringExtra(Constants.SUB)!!
+        avt = intent.getStringExtra(Constants.AVT)!!
+        author = intent.getStringExtra(Constants.AUTHOR)!!
+        url = intent.getStringExtra(Constants.URL)!!
+
+        //bind data
+        binding.title = title
+        binding.sub = sub
+        binding.author = author
+        binding.avt = avt
+        binding.url = url
     }
 }
