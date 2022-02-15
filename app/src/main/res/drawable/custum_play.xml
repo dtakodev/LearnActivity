@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/color"></item>
+    <item android:drawable="@drawable/ic_baseline_play"
+        android:top="@dimen/_10sdp"
+        android:end="@dimen/_10sdp"
+        android:start="@dimen/_10sdp"
+        android:bottom="@dimen/_10sdp">
+
+    </item>
+</layer-list>
