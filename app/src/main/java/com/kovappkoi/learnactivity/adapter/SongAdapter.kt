@@ -32,6 +32,7 @@ class SongAdapter(
             intent.putExtra(Constants.SUB, listSong[position].sub)
             intent.putExtra(Constants.URL, listSong[position].url)
             activity.startActivity(intent)
+
         }
         holder.binding.executePendingBindings()
     }

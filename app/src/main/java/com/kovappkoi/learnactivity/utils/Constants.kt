@@ -9,5 +9,6 @@ class Constants {
         const val SUB = "sub"
         const val URL = "url"
         const val AUTHOR = "author"
+        const val BASE_URL = "https://storage.googleapis.com/automotive-media/"
     }
 }
