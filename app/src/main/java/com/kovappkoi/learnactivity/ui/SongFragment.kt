@@ -14,7 +14,9 @@ import com.kovappkoi.learnactivity.model.Song
 import com.kovappkoi.learnactivity.viewmodel.SongViewModel
 
 
-class SongFragment : Fragment() {
+class SongFragment : Fragment()
+//    Callback
+{
     private lateinit var binding: SongFragmentBinding
     private lateinit var songViewModel: SongViewModel
 
@@ -34,13 +36,14 @@ class SongFragment : Fragment() {
         songViewModel = ViewModelProvider(requireActivity())[SongViewModel::class.java]
 
         songViewModel.songs.observe(requireActivity(), Observer {
-            binding.rvSong.adapter = SongAdapter(it as ArrayList<Song>)
+            binding.rvSong.adapter = SongAdapter(it as ArrayList<Song>, requireActivity())
         })
+//        SongAdapter.callback =this
         //handle click btn upload song
         binding.playShuffle.setOnClickListener { uploadNullSong() }
 
         //handle search
-        binding.searchBar.btnSearch.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
+        binding.searchBar.btnSearch.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(p0: String?): Boolean {
                 return true
             }
@@ -55,6 +58,14 @@ class SongFragment : Fragment() {
     private fun uploadNullSong() {
         songViewModel.upSong(Song())
     }
+
+//    override fun onClickItem(song: Song) {
+//        Toast.makeText(
+//            requireActivity(),
+//            "Bài hát này có tiêu đề ${song.title}",
+//            Toast.LENGTH_SHORT
+//        ).show()
+//    }
 //    @Throws(Exception::class)
 //    private fun playAudio(url: String) {
 //        killMediaPlayer()

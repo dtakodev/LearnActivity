@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/LearnActivity/app/src/main/res/drawable/background_song_item.xml" value="0.213" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/LearnActivity/app/src/main/res/layout/activity_playmusic.xml" value="0.20512820512820512" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/album_fragment.xml" value="0.25" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/album_item.xml" value="0.25" />
         <entry key="..\:/LearnActivity/app/src/main/res/layout/appbar_layout.xml" value="0.25" />
@@ -18,16 +19,7 @@
         <entry key="..\:/LearnActivity/app/src/main/res/layout/toolbar_song.xml" value="0.25" />
         <entry key="..\:/LearnActivity/app/src/main/res/menu/my_navigation_items.xml" value="0.25" />
         <entry key="..\:/LearnActivity/app/src/main/res/menu/navigation_items.xml" value="0.25" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/drawable/botron.xml" value="0.148" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.148" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/drawable/ic_search.xml" value="0.148" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/activity_playmusic.xml" value="0.22" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/album_fragment.xml" value="0.2" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/album_item.xml" value="0.2" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/item_song.xml" value="0.14764492753623187" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/song_fragment.xml" value="0.2" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/toolbar_song.xml" value="0.11322463768115942" />
       </map>
     </option>
   </component>

@@ -2,12 +2,14 @@
 <layout>
 
     <data>
+
         <variable
             name="song"
             type="com.kovappkoi.learnactivity.model.Song" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/song_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
@@ -42,24 +44,24 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/_16ssp"
-                    android:textColor="@android:color/black"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="8dp"
-                    android:text="@{song.title, default= ConDuongMua}">
+                    android:text="@{song.title, default= ConDuongMua}"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold">
 
                 </TextView>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@android:color/black"
-                    android:alpha="0.75"
-                    android:textSize="@dimen/_14ssp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="8dp"
-                    android:text="@{song.author, default = CaoThaiSon}">
+                    android:alpha="0.75"
+                    android:text="@{song.author, default = CaoThaiSon}"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_14ssp">
 
                 </TextView>
             </LinearLayout>

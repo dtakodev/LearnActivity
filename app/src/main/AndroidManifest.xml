@@ -15,7 +15,12 @@
         <service
             android:name=".service.BackgroundSoundService"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="true"
+            android:permission="android.permission.FOREGROUND_SERVICE" />
+
+        <activity
+            android:name=".PlayActivity"
+            android:exported="false" />
 
         <activity
             android:name=".MainActivity"
