@@ -34,6 +34,10 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/activity_playmusic.xml" value="0.21" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/album_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/home_fragment.xml" value="0.21" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/item_song.xml" value="0.11231884057971014" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/song_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/LearnActivity/app/src/main/res/layout/toolbar_home.xml" value="0.2" />
       </map>
     </option>
   </component>

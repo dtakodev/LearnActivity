@@ -36,6 +36,9 @@ class PlayActivity : AppCompatActivity() {
         binding.avt = avt
         binding.url = url
 
+
+
+
         if (mediaPlayer != null) {
             mediaPlayer!!.stop()
             mediaPlayer!!.release()
@@ -44,6 +47,7 @@ class PlayActivity : AppCompatActivity() {
             playAudio(url)
         }
     }
+
     private fun playAudio(url: String) {
         mediaPlayer = MediaPlayer()
         mediaPlayer!!.setDataSource(url)
