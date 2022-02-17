@@ -19,6 +19,7 @@ class SongViewModel(application: Application) : AndroidViewModel(application) {
                     songs.value = value.toObjects(Song::class.java)
                 }
             }
+
     }
 
     fun searchSongViaTitle(textSearch: String) {

@@ -16,6 +16,7 @@ class AlbumFragment : Fragment() {
     ): View {
         super.onCreateView(inflater, container, savedInstanceState)
         binding = AlbumFragmentBinding.inflate(layoutInflater)
+
         return binding.root
     }
 }
